@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.bookforyou.bookseg"
+    tools:context="com.example.bookapp.bookseg"
     android:background="#D88E22">
 
     <TextView
@@ -80,7 +80,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/buttonlist"
+        android:id="@+id/btnp"
         android:layout_width="401dp"
         android:layout_height="46dp"
         android:text="OR JUST look at all books from her ->"

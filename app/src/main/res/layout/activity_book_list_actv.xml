@@ -6,10 +6,10 @@
     android:layout_height="match_parent"
 
     android:background="@drawable/bb"
-    tools:context="com.example.bookforyou.booklist">
+    tools:context="com.example.bookapp.booklist">
 
     <Button
-        android:id="@+id/drinklist"
+        android:id="@+id/btnd"
         android:layout_width="138dp"
         android:layout_height="38dp"
         android:text="Frome her "
@@ -21,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.147"
         tools:ignore="MissingConstraints"
-       />
+        />
 
     <view
         android:id="@+id/view"
@@ -32,8 +32,8 @@
         tools:layout_editor_absoluteX="80dp"
         tools:layout_editor_absoluteY="124dp" />
 
-    <view
-        android:id="@+id/view2"
+    <TextView
+        android:id="@+id/textbookv"
         class="androidx.appcompat.widget.ActionMenuView"
         android:layout_width="304dp"
         android:layout_height="497dp"

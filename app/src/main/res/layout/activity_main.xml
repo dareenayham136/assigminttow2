@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.bookforyou.MainActivity"
+    tools:context="com.example.bookapp.MainActivity"
     android:background="@drawable/bacckk">
 
 
@@ -45,6 +45,7 @@
         android:layout_height="49dp"
         android:background="@drawable/biginput"
         android:hint="Password "
+        android:inputType="textPassword"
         android:paddingLeft="12dp"
         android:textAllCaps="false"
         android:textColor="#ebecfe"
@@ -84,13 +85,13 @@
         android:layout_height="47dp"
         android:background="#FF9800"
         android:text="Log In  "
-        android:onClick="ptnb_OnClik"
+
         android:textAlignment="center"
         android:textSize="24sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="78dp"
         tools:layout_editor_absoluteY="351dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints,OnClick" />
 
     <Button
         android:id="@+id/btnsign"
